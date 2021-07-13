@@ -114,25 +114,7 @@ li{
 
 }
 
-/* .img1{
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-  width: 700px;
-  height: 500px;
-  margin-left:36px;
 
-}
-
-.img2{
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-  width: 700px;
-  height: 500px;
-  margin-left:36px;
-  
-} */
 
 .bottom-container p{
   background-color:#39A6A3;
@@ -217,7 +199,83 @@ div.desc {
   height: 300px;
 }
 
-.blog-middle-container{
-  margin-left: 45px;
-  margin-right: 45px;
+
+
+.bgim{
+  width:100%;
+  height:500px;
+  border-radius: 2%;
+}
+
+.Blog_h1{
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 4rem;
+  font-weight: 900;
+  
+}
+
+.Blog_h2{
+  color: rgb(17, 113, 192);
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+.Blog_p{
+  color:black;
+  font-family:sans-serif;
+  font-size: 120%;
+  text-align: justify;
+  padding-left:20px;
+  padding-right:20px
+}
+
+.img1{
+
+  display: block;
+  width: 250;
+  height: 200;
+  padding:10px;
+  border-radius: 10%;
+  
+}
+
+.img2{
+
+  display: block;
+  width: 250;
+  height: 150;
+  padding:10px;
+  border-radius: 10%;
+  margin-right: 800px;
+  
+}
+
+.blogger1 h3{
+  font-family:sans-serif;
+  padding-left: 10px;
+  color:rgb(53, 124, 206);
+}
+
+.top5 h2{
+  color: rgb(17, 113, 192);
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+.blogger1 p{
+  color:black;
+  font-family:sans-serif;
+  font-size: 120%;
+  text-align: justify;
+  padding-left:20px;
+  padding-right:20px
+}
+
+
+.blogger1 img{
+  border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
