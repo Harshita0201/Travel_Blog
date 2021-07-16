@@ -15,3 +15,4 @@
         location.href = "blog.html";
     }
       
+  

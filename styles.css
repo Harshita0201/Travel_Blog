@@ -12,6 +12,33 @@ ul{
     top: 0;
     width: 100%;
 }
+
+style
+{
+  position: relative;
+  background: #696969;
+  overflow: hidden;
+}
+style::before
+{
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0.3;
+  background-image: url('https://images.pexels.com/photos/1084542/pexels-photo-1084542.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
   
 li{
     float: left;
@@ -181,14 +208,26 @@ div.desc {
   height: 100%;
   margin-top: 50px;
   margin-bottom: 500px;
+  text-align: center;
+    
+    
 }
 
+
 .middle-contact-container{
-  width:100%;
-  height: 100%;
-  margin-top: 50px;
-  margin-bottom: 150px;
+    margin:50px 0;
+    padding-left: 10px;
 }
+
+.middle-contact-container p{
+      font-size: 150%;
+}
+.middle-contact-containe h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 6rem;
+    font-weight: 900;
+ }
+
 
 .contact{
   margin-top: 10px;;
@@ -216,7 +255,7 @@ div.desc {
 }
 
 .Blog_h2{
-  color: rgb(17, 113, 192);
+  color: #39A6A3;
   font-family: 'Times New Roman', Times, serif;
   text-align: center;
 }
@@ -254,11 +293,11 @@ div.desc {
 .blogger1 h3{
   font-family:sans-serif;
   padding-left: 10px;
-  color:rgb(53, 124, 206);
+  color:#39A6A3;
 }
 
 .top5 h2{
-  color: rgb(17, 113, 192);
+  color:#39A6A3;
   font-family: 'Times New Roman', Times, serif;
   text-align: center;
 }
@@ -278,4 +317,25 @@ div.desc {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+
+.text-block2 {
+
+  position: absolute;
+  top: 160px;
+  left: 20px;
+  width:350px;
+  height: 350px;
+  background-color: rgb(3, 3, 3);
+  color: whitesmoke;
+  padding-left: 20px;
+  padding-right: 20px;
+  opacity: 0.9;
+}
+
+.links{
+  font-size: 1.2rem;
+  color: #ccc;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
